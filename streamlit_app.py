@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("ShubhgeneAI")
 st.write(GENE_DATABASE = {
-    gene = st.selectbox("Select Gene", list(GENE_DATABASE.keys()))
+    gene == st.selectbox("Select Gene", list(GENE_DATABASE.keys()))
 st.json(GENE_DATABASE[gene])
 
 
